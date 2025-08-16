@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-white: #fff;
+  --color-brand-100: #afd3e9;
+  --color-brand-200: #246fb2;
+  --color-brand-210: #5a9ec8;
+  --color-brand-250: #135997;
+  --color-brand-300: #162c5d;
+  --color-brand-350: #0b1326;
+  --color-green: #2eac58;
+  --color-dark-100: #1c2b4d;
+  --color-dark-200: #3c4d67;
+  --color-surface-100: #f8fafb;
+  --color-surface-200: #f0f9ff;
+  --color-surface-300: #c8ebff;
+  --color-surface-400: #8fd7ff;
+
+  --font-sans: "Lexend", sans-serif;
+  --font-title: "Outfit", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-xs--line-height: normal;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: normal;
+  --text-base: 1rem;
+  --text-base--line-height: normal;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: normal;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: normal;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: normal;
+  --text-3xl: 1.75rem;
+  --text-3xl--line-height: normal;
+  --text-4xl: 1.875rem;
+  --text-4xl--line-height: normal;
+  --text-5xl: 2.25rem;
+  --text-5xl--line-height: normal;
+  --text-6xl: 2.5rem;
+  --text-6xl--line-height: normal;
+  --text-7xl: 3rem;
+  --text-7xl--line-height: normal;
+  --text-8xl: 3.75rem;
+  --text-8xl--line-height: normal;
+  --text-9xl: 4rem;
+  --text-9xl--line-height: normal;
+  --text-10xl: 4.5rem;
+  --text-10xl--line-height: normal;
+  --text-11xl: 5rem;
+  --text-11xl--line-height: normal;
+}
