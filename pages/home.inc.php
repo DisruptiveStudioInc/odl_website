@@ -7,10 +7,10 @@
 
   <div class="dh of-h rel">
     <div class="video-placeholder">
-      <img src="./images/hero/hero.webp" alt="Placeholder" />
+      <img src="./images/body/blank_full.svg" alt="Placeholder" />
     </div>
 
-    <div class="video-iframe-wrapper">
+    <div class="video-iframe-wrapper d-none">
       <iframe
         src="https://player.vimeo.com/video/<?= $Video_vimeo; ?>?background=1&autoplay=1&muted=1&loop=1"
         frameborder="0"
@@ -77,7 +77,8 @@
     </div>
     <?php foreach($verticalSlides as $k => $slide): ?>
 		<div class="letter-wrap" style="--item-index:<?= $k; ?>">
-      <img class="letter-bg img_0<?= $slide['id']; ?>" src="./images/body/letters/<?= $slide['id']; ?>.webp" alt="<?= $slide['title']; ?>">
+      <!-- <img class="letter-bg img_0<?= $slide['id']; ?>" src="./images/body/letters/<?= $slide['id']; ?>.webp" alt="<?= $slide['title']; ?>"> -->
+      <img class="letter-bg img_0<?= $slide['id']; ?>" src="./images/body/blank_full.svg" alt="<?= $slide['title']; ?>">
       <div class="letter-content word_0<?= $slide['id']; ?> abs w-100 p-40 med-p-10-20 med-pt-50 med-pb-50 t-c">
         <h2 class="letter-title tc-0"><?= $slide['title']; ?></h2>
         <p class="h4 letter-text t-pretty h3 tc-0"><?= $slide['text']; ?></p>
@@ -163,7 +164,8 @@
   <?php foreach($homeProducts as $item): ?>
     <div class="box_product img-<?= $item['number']; ?> rel flex ai-center jc-center fd-col">
       <div class="rel t-c">
-        <img src="./images/body/products/<?= $item['link']; ?>.webp" class="product m-center cursor-pointer" alt="<?= $item['link']; ?>" onclick="openModal('Modal<?= $item['id']; ?>')"/>
+        <!-- <img src="./images/body/products/<?= $item['link']; ?>.webp" class="product m-center cursor-pointer" alt="<?= $item['link']; ?>" onclick="openModal('Modal<?= $item['id']; ?>')"/> -->
+        <img src="./images/body/blank_4_3.svg" class="product m-center cursor-pointer" alt="<?= $item['link']; ?>" onclick="openModal('Modal<?= $item['id']; ?>')"/>
         <div class="abs product-plus-wrap d-flex fd-col ai-center g-20">
           <button type="button" class="v-white c-pri icon br-50 icon-more pointer-e-none"></button>
           <!-- <a href="?p=product&id=<?= $item['link']; ?>" class="btn c-ter br-50"><?= $Btn_view; ?></a> -->
@@ -173,7 +175,8 @@
   <?php endforeach; ?>
 
   <?php foreach($homeProducts as $item): ?>
-	  <img class="background anim-scale med-d-none img_product_<?= $item['link']; ?>" src="./images/body/subpage/bg_<?= $item['link']; ?>.webp" alt="<?= $item['link']; ?> background">
+	  <!-- <img class="background anim-scale med-d-none img_product_<?= $item['link']; ?>" src="./images/body/subpage/bg_<?= $item['link']; ?>.webp" alt="<?= $item['link']; ?> background"> -->
+	  <img class="background anim-scale med-d-none img_product_<?= $item['link']; ?>" src="./images/body/blank_full.svg" alt="<?= $item['link']; ?> background">
   <?php endforeach; ?>
 
 	</div>
@@ -244,7 +247,9 @@
       <?php foreach($sec07 as $item): ?>
         <li>
           <h2 class="h1"><?= $item['title']; ?></h2>
-          <span><img src="./images/body/truth/<?= $item['id']; ?>.webp" alt="<?= $item['title']; ?>" class="" loading="lazy"/>
+          <span>
+            <!-- <img src="./images/body/truth/<?= $item['id']; ?>.webp" alt="<?= $item['title']; ?>" class="" loading="lazy"/> -->
+            <img src="./images/body/blank_4_3.svg" alt="<?= $item['title']; ?>" class="" loading="lazy"/>
             <p class="h3 t-pretty"><?= $item['text']; ?></p>
           </span>
         </li>
@@ -266,12 +271,14 @@
 
 		<div class="mw-1280 jc-center min-h-dhv med-h-0 g-40 ai-start med-fd-col">
 
-			<div class="img_spirit med-d-none">
+			<div class="img_spirit med-d-none" style="top:180px;min-height:460px;">
         <?php foreach($sec08 as $item): ?>
 				<span class="img_product">
 					<div class="product_wrapper">
-						<img src="./images/body/the_spirit/circle/<?= $item['id']?>.png" class="img_reference" alt="<?= $item['name']?>" loading="lazy"/>
-						<img src="./images/body/the_spirit/<?= $item['id']?>.webp" class="product" alt="<?= $item['name']?>" loading="lazy"/>
+						<!-- <img src="./images/body/the_spirit/circle/<?= $item['id']?>.png" class="img_reference" alt="<?= $item['name']?>" loading="lazy"/>
+						<img src="./images/body/the_spirit/<?= $item['id']?>.webp" class="product" alt="<?= $item['name']?>" loading="lazy"/> -->
+            <img src="./images/body/blank_square.svg" class="img_reference" alt="<?= $item['name']?>" loading="lazy"/>
+						<img src="./images/body/blank_10_13.svg" class="product" alt="<?= $item['name']?>" loading="lazy"/>
 					</div>
 				</span>
         <?php endforeach; ?>

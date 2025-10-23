@@ -91,8 +91,10 @@ $link_02 = "immersion";
 $link_03 = "connection";
 $link_04 = "essence";
 
-$Register = "https://my.stellumglobal.com/register/$user_replica";
-$Login    = "https://my.stellumglobal.com/login";
+// $Register = "https://my.stellumglobal.com/register/$user_replica";
+// $Login    = "https://my.stellumglobal.com/login";
+$Register = "#";
+$Login    = "#";
 
 // ---------------------------
 // Armar bloque HTML dinámico
@@ -114,7 +116,7 @@ $Menu = array(
   array('#home','active',$Menu_01),
   array('#odl','',$Menu_02),
   array('#experience','',$Menu_03),
-  array('?p=product&id=basic','',$Products_title_01)
+  // array('?p=product&id=basic','',$Products_title_01)
   // array('','', $Menu_05)
 );
 
