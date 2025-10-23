@@ -1,7 +1,7 @@
 <?php
 
 $Lang = "en";
-$Description = "5D is an ecosystem designed to transform the way people learn, grow, and connect. Through advanced education, real-time trading, and an exclusive community, we provide access to tools, knowledge, and experiences that were once reserved for a few. Our model integrates practical training, business opportunities, and premium experiences such as trips, global events, and high-level benefits, creating an environment where every step drives your personal, professional, and financial evolution. With EVO, knowledge turns into action and action into measurable results, in a global network that opens doors, connects ideas, and turns vision into reality.";
+$Description = "Only Doctor Leaders (ODL) is an international experience platform where the world's most visionary doctors learn, certify, connect, and experience the magic of a production designed to awaken their senses and leadership.";
 $Keywords = "evolution, education, growth, community, exclusivity, leadership, trading, business, knowledge, transformation, wellness, membership, success, innovation, learning, opportunities, freedom, vision, experiences, connection";
 
 //-------------------------//
