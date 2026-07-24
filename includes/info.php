@@ -186,27 +186,32 @@ $verticalSlides = array(
   [
     'id' => 1,
     'title' => $Letters_title_01,
-    'text' => $Letters_text_01
+    'text' => $Letters_text_01,
+    'image' => 'odl-live.webp'
   ],
   [
     'id' => 2,
     'title' => $Letters_title_02,
-    'text' => $Letters_text_02
+    'text' => $Letters_text_02,
+    'image' => 'odl-netflix.webp'
   ],
   [
     'id' => 3,
     'title' => $Letters_title_03,
-    'text' => $Letters_text_03
+    'text' => $Letters_text_03,
+    'image' => 'odl-marketplace.webp'
   ],
   [
     'id' => 4,
     'title' => $Letters_title_04,
-    'text' => $Letters_text_04
+    'text' => $Letters_text_04,
+    'image' => 'odl-reconocimientos.webp'
   ],
   [
     'id' => 5,
     'title' => $Letters_title_05,
-    'text' => $Letters_text_05
+    'text' => $Letters_text_05,
+    'image' => 'odl-red.webp'
   ]
 );
 
@@ -249,7 +254,7 @@ $homeProducts = array(
     'text' => $Products_text_01
   ],
   [
-    'id' => 3,
+    'id' => 2,
     'number' => 'two',
     'link' => $link_02,
     'title' => $Products_title_02,
@@ -317,24 +322,27 @@ $sec07 = array(
 $sec08 = array(
   [
     'id' => 1,
-    'small_img' => 'revive.webp',
-    'name' => 'revive',
+    'image'=> 'innovacion.webp',
+    'small_img' => 'sq-innovacion.webp',
+    'name' => 'innovation',
     'title'=> $Spirit_title_01,
     'list' => [$Spirit01_list_01,$Spirit01_list_02,$Spirit01_list_03,$Spirit01_list_04],
     'list_type' => 'ul'
   ],
   [
     'id' => 2,
-    'small_img' => 'rejuvenate.webp',
-    'name' => 'rejuvenate',
+    'image'=> 'patrocinadores.webp',
+    'small_img' => 'sq-patrocinadores.webp',
+    'name' => 'sponsors',
     'title'=> $Spirit_title_02,
     'list' => [$Spirit02_list_01,$Spirit02_list_02,$Spirit02_list_03,$Spirit02_list_04],
     'list_type' => 'ul'
   ],
   [
     'id' => 3,
-    'small_img' => 'restore.webp',
-    'name' => 'restore',
+    'image'=> 'metodologia.webp',
+    'small_img' => 'sq-metodologia.webp',
+    'name' => 'methodology',
     'title'=> $Spirit_title_03,
     'list' => [$Spirit03_list_01,$Spirit03_list_02,$Spirit03_list_03,$Spirit03_list_04,$Spirit03_list_05,$Spirit03_list_06],
     'list_type' => 'ol'
