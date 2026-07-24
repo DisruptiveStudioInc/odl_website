@@ -151,7 +151,7 @@
 
 <section class="products">
 
-	<div class="overlay of-h">
+	<div class="overlay of-h o-40">
 
 	<div class="anchor" id="experience"></div>
 	<div class="h-100 med-h-0 med-fd-col-rev content-scroll jc-center ai-center rel wrap_products">
@@ -162,8 +162,8 @@
 	</div>
 
   <?php foreach($homeProducts as $item): ?>
-    <div class="box_product img-<?= $item['number']; ?> rel flex ai-center jc-center fd-col">
-      <div class="rel t-c">
+    <div class="box_product img-<?= $item['number']; ?> rel flex ai-center jc-center fd-col overlay small-o-40">
+      <div class="rel t-c" style="z-index:2">
         <img src="./images/body/products/<?= $item['link']; ?>.webp" class="product m-center cursor-pointer" alt="<?= $item['link']; ?>" onclick="openModal('Modal<?= $item['id']; ?>')"/>
         <div class="abs product-plus-wrap d-flex fd-col ai-center g-20">
           <button type="button" class="v-white c-pri icon br-50 icon-more pointer-e-none"></button>
@@ -279,7 +279,7 @@
         <?php endforeach; ?>
 			</div>
 
-			<img src="./images/body/treo/all.webp" class="mw-300 m-center med-d-block d-none" alt="all products" loading="lazy"/>
+			<img src="./images/body/the_spirit/innovacion.webp" class="mw-300 m-center med-d-block d-none br-10" alt="all products" loading="lazy"/>
 
 			<!-- Textos -->
 			<div class="text_spirit">
